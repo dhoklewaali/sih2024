@@ -1,109 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>India's Cultural Locations</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                text-align: center;
-            }
-            #map-container {
-                position: relative;
-                width: 80%;
-                max-width: 1000px;
-                margin: 0 auto;
-                border: 2px solid #333;
-            }
-            #map-image {
-                width: 100%;
-                height: auto;
-                display: block;
-            }
-            .location-link {
-                position: absolute;
-                text-decoration: none;
-                color: white;
-                font-weight: bold;
-                padding: 5px 10px;
-                background-color: rgba(0, 0, 255, 0.7);
-                border: 2px solid white;
-                border-radius: 15px;
-                font-size: 14px;
-                z-index: 10;
-                transition: all 0.3s ease;
-            }
-            .location-link:hover {
-                transform: scale(1.1);
-                background-color: rgba(255, 0, 0, 0.7);
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Explore India's Cultural Locations</h1>
-        <div id="map-container">
-            <img id="map-image" src="./india_map.jpeg" alt="Map of India" />
-            <a
-                href="Tamil_Nadu.htm"
-                class="location-link"
-                style="top: 88%; left: 38%"
-                >Tamil Nadu</a
-            >
-            <a
-                href="West_Bengal.htm"
-                class="location-link"
-                style="top: 50%; left: 70%"
-                >West Bengal</a
-            >
-            <a
-                href="rajasthan.htm"
-                class="location-link"
-                style="top: 39%; left: 20%"
-                >Rajasthan</a
-            >
-            <a
-                href="maharashtra.htm"
-                class="location-link"
-                style="top: 63%; left: 20%"
-                >Maharashtra</a
-            >
-            <a
-                href="Odisha.htm"
-                class="location-link"
-                style="top: 58%; left: 55%"
-                >Odisha</a
-            >
-            <a
-                href="Karnataka.htm"
-                class="location-link"
-                style="top: 88%; left: 25%"
-                >Karnataka</a
-            >
-            <a
-                href="Gujarat.htm"
-                class="location-link"
-                style="top: 50%; left: 10%"
-                >Gujarat</a
-            >
-            <a
-                href="Uttarakhand.htm"
-                class="location-link"
-                style="top: 27%; left: 35%"
-                >Uttarakhand</a
-            >
-            <a
-                href="madhyapradesh.htm"
-                class="location-link"
-                style="top: 50%; left: 29%"
-                >Madhya Pradesh</a
-            >
-            <a
-                href="northeaststates.htm"
-                class="location-link"
-                style="top: 45%; left: 75%"
-                >North Eastern States</a
-            >
-        </div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India's Cultural Locations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        #map-container {
+            position: relative;
+            width: 80%;
+            max-width: 1000px;
+            margin: 0 auto;
+            border: 2px solid #ffffff;
+        }
+        #map-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .location-link {
+            position: absolute;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 14px;
+            z-index: 10;
+            transition: all 0.3s ease;
+            background-color: #4169E1; /* Royal Blue */
+            color: white;
+            border: 2px solid white;
+        }
+        .location-link:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>Explore India's Cultural Locations</h1>
+    <div id="map-container">
+        <img id="map-image" src="india_map.jpeg" alt="Map of India">
+        <a href="tamilnadu.htm" class="location-link" style="top: 88%; left: 35%;">Tamil Nadu</a>
+        <a href="westbengal.htm" class="location-link" style="top: 50%; left: 70%;">West Bengal</a>
+        <a href="rajasthan.htm" class="location-link" style="top: 39%; left: 20%;">Rajasthan</a>
+        <a href="maharashtra.htm" class="location-link" style="top: 63%; left: 20%;">Maharashtra</a>
+        <a href="odisha.htm" class="location-link" style="top: 58%; left: 55%;">Odisha</a>
+        <a href="karnataka.htm" class="location-link" style="top: 78%; left: 25%;">Karnataka</a>
+        <a href="gujarat.htm" class="location-link" style="top: 50%; left: 10%;">Gujarat</a>
+        <a href="uttarakhand.htm" class="location-link" style="top: 27%; left: 35%;">Uttarakhand</a>
+        <a href="madhyapradesh.htm" class="location-link" style="top: 50%; left: 29%;">Madhya Pradesh</a>
+        <a href="northeaststates.htm" class="location-link" style="top: 35%; left: 75%;">North Eastern States</a>
+    </div>
+</body>
 </html>
